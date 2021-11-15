@@ -36,14 +36,14 @@
                 >
         ]
         <<<
-        [ calculate ascii value; use result for dec 30
+        [ calculate ascii value; use result for dec 48
                 -
                 >>>+
                 >+
                 <<<<
         ]
         >>>
-        [ restore dec 30
+        [ restore dec 48
                 -
                 <<<+
                 >>>
