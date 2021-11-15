@@ -1,0 +1,11 @@
+#!/usr/bin/bc
+v1 = 1
+v2 = 1
+print 1, "\n", 1, "\n"
+for(i = 0; i < 10; i++) {
+        v3 = v1 + v2
+        v1 = v2
+        v2 = v3
+        print v3, "\n"
+}
+quit
